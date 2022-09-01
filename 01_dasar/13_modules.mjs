@@ -1,7 +1,4 @@
-import os from "os" 
-
-// error
-// import harus .mjs
+import os from "os"
 
 console.info(os.platform);
 console.info(os.cpus());
