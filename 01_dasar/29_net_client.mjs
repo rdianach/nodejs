@@ -13,6 +13,7 @@ const connection = net.createConnection({
 
 setInterval(function(){ // handler
     connection.write("Amardian\r\n"); // buffer
+    connection.write(`${process.argv[2]}\r\n`); 
 }, 2000); //timeout
 
 
