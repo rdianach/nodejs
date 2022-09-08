@@ -1,0 +1,32 @@
+### 
+
+GET http://localhost:3000
+
+### create
+
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "todo": "Amardian D Achmad"
+}
+
+### update
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "id": 1,
+    "todo": "Belajar NodeJS Dasar"
+}
+
+### delete
+DELETE http://localhost:3000
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "id": 0
+}
