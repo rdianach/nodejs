@@ -1,0 +1,8 @@
+Hello
+World
+┌───────────┬────────────┐
+│  (index)  │   Values   │
+├───────────┼────────────┤
+│ firstName │ 'Amardian' │
+│ lastName  │  'Achmad'  │
+└───────────┴────────────┘
