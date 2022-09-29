@@ -1,0 +1,29 @@
+{
+  "name": "03_package_manager",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports":{
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rdianach",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Amardian Achmad",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdianach/nodejs"
+  },
+  "type": "module"
+  
+}
