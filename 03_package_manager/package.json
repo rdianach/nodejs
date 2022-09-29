@@ -24,6 +24,13 @@
     "type": "git",
     "url": "https://github.com/rdianach/nodejs"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "~4.17.19",
+    "belajar-nodejs-npm-library-rdianach": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
   
 }
